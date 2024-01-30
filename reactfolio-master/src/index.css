@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Roboto:wght@500&display=swap");
+@import "./data/styles.css";
+
+body {
+	margin: 0;
+	font-family: var(--primary-font);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #F8F7F1;
+	background-image: url('./pages/beams.webp');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+/*TILT CARD*/
