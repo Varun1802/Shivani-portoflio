@@ -65,8 +65,9 @@ const Articles = () => {
   							          <div class="page-text w-richtext ">
   							            <h3><strong>June 2016</strong></h3>
   							            <h6>BY <a href="" target="_blank">Shivani Sibal</a></h6>
-
-  							            <p className="left--text">THE LAST OF the bags packed, Parul and Aahan Sikand were ready to leave 							their family home for the final time.Acquired in 1946, Sikand House was intended to be the 							cradle for many grandsons and great-grandsons in the coming years. Displaced as he was at 							Partition, Rai Bahadur Manohar Krishna Sikand, Aahan's grandfather, a largely self-made man</p>
+										  <p className="left--text visible md:hidden">THE LAST OF the bags packed, Parul and Aahan Sikand were ready to leave 							their family home for the final time.
+										  </p>
+  							            <p className="left--text invisible md:visible">THE LAST OF the bags packed, Parul and Aahan Sikand were ready to leave 							their family home for the final time.Acquired in 1946, Sikand House was intended to be the 							cradle for many grandsons and great-grandsons in the coming years. Displaced as he was at 							Partition, Rai Bahadur Manohar Krishna Sikand, Aahan's grandfather, a largely self-made man</p>
   							          </div>
   							        </div>
   							      </div>
@@ -88,8 +89,8 @@ const Articles = () => {
   							      </div>
   							      <div class="layer-text right">
   							        <div class="page-right-2">
-  							          <div class="page-text w-richtext">
-  							            <p>  with a premonition about difficult times ahead, didn't suffer the life of a refugee, 							having swapped his house with that of an equally astute Muslim acquaintance before all the 							madness began. It was a gentleman's agreement.</p>
+  							          <div class="page-text w-richtext invisible md:visible">
+  							            <p >  with a premonition about difficult times ahead, didn't suffer the life of a refugee, 							having swapped his house with that of an equally astute Muslim acquaintance before all the 							madness began. It was a gentleman's agreement.</p>
 										  <p>The Rai Bahadur arrived in Delhi by air, with gold coins sewn into the lining of his and 							his wife's coats. Their worthy possessions had followed by road, including the heavy teak 							furniture and cast- iron cooking ...</p>
   							          </div>
   							        </div>

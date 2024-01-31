@@ -103,7 +103,7 @@ html.w-mod-touch * {
 	transform: none;
 	transition: none;
 	direction: ltr;
-	font-family: 'Inter', sans-serif;
+	font-family: inherit;
 	font-weight: inherit;
 	color: inherit;
 	font-size: inherit;
@@ -174,19 +174,20 @@ html.w-mod-touch * {
   h3 {
 	font-size: 24px;
 	line-height: 30px;
+	font-weight: bold;
   }
   
   h6 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 12px;
-	line-height: 12px;
+	line-height: 18px;
+	font-weight: bold;
   }
   
   p {
 	margin-top: 0;
 	margin-bottom: 10px;
-	font-size: 24px;
   }
   
   a {
@@ -461,11 +462,12 @@ html.w-mod-touch * {
 	margin-right: auto;
 	margin-left: auto;
 	font-family: 'Inter', sans-serif;
+	overflow: hidden;
   }
   
   .page-text p {
 	margin-bottom: 0px;
-	font-size: 0.85vw;
+	font-size: 12px;
 	line-height: 1.5;
   }
   
