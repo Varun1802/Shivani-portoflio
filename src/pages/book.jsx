@@ -13,7 +13,7 @@ function Book() {
 				<NavBar active="home" />
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
-						<div className="contact-logo">
+						<div className="contact-logo mt-4">
 							<Logo width={46} />
 						</div>
 					</div>
