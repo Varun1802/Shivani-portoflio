@@ -152,7 +152,7 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								<div className="flex flex-col gap-4 md:ml-12">
+								<div className="flex flex-col gap-4 ml-4 md:ml-12">
 							<iframe  height="250" src="https://www.youtube.com/embed/Oqq9Hs-dYhU?si=hLJF3O0BLik8kUHA" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className="w-full md:w-[470px]"></iframe>
 								
 							<iframe  height="250" src="https://www.youtube.com/embed/LMI_q02ruxs?si=-h_4VtkWIzHveV_C" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className="w-full md:w-[470px]"></iframe>
