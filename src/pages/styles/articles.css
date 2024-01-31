@@ -103,7 +103,7 @@ html.w-mod-touch * {
 	transform: none;
 	transition: none;
 	direction: ltr;
-	font-family: inherit;
+	font-family: 'Inter', sans-serif;
 	font-weight: inherit;
 	color: inherit;
 	font-size: inherit;
@@ -460,7 +460,7 @@ html.w-mod-touch * {
 	margin-top: 25px;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Inter', sans-serif;
   }
   
   .page-text p {
