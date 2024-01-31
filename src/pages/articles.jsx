@@ -62,11 +62,11 @@ const Articles = () => {
   							          <div class="corner"></div>
   							          <div class="corner2"></div>
   							          <div class="corner-fold"></div>
-  							          <div class="page-text w-richtext text-sm ">
+  							          <div class="page-text w-richtext ">
   							            <h3><strong>June 2016</strong></h3>
   							            <h6>BY <a href="" target="_blank">Shivani Sibal</a></h6>
 
-  							            <p className="text-sm">THE LAST OF the bags packed, Parul and Aahan Sikand were ready to leave 							their family home for the final time.Acquired in 1946, Sikand House was intended to be the 							cradle for many grandsons and great-grandsons in the coming years. Displaced as he was at 							Partition, Rai Bahadur Manohar Krishna Sikand, Aahan's grandfather, a largely self-made man</p>
+  							            <p className="left--text">THE LAST OF the bags packed, Parul and Aahan Sikand were ready to leave 							their family home for the final time.Acquired in 1946, Sikand House was intended to be the 							cradle for many grandsons and great-grandsons in the coming years. Displaced as he was at 							Partition, Rai Bahadur Manohar Krishna Sikand, Aahan's grandfather, a largely self-made man</p>
   							          </div>
   							        </div>
   							      </div>

@@ -7,6 +7,7 @@
 	margin-top: 50px;
 	padding-bottom: 25px;
 	align-items: center;
+	color: var(--tertiary-color)
 }
 
 .footer-links,
@@ -32,7 +33,7 @@
 
 .footer-nav-link-list a {
 	text-decoration: none;
-	color: var(--secondary-color);
+	color: var(--tertiary-color);
 }
 
 .footer-nav-link-list a:hover {

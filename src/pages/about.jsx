@@ -33,7 +33,7 @@ const About = () => {
 						</div>
 					</div>
 
-					<div className="about-container">
+					<div className="about-container h-screen">
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
@@ -46,7 +46,7 @@ const About = () => {
 							</div>
 
 							<div className="about-left-side">
-								<div className="about-image-container">
+								<div className="about-image-container w-96">
 									<div className="about-image-wrapper">
 										<img
 											src="shivani-2.png"

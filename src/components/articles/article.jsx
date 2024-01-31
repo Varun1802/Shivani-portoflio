@@ -15,6 +15,7 @@ const Article = (props) => {
 
 				
 					<div className="article-right-side">
+						<a className="" href={props.links} target="_blank">
 						<div className="article-title">{props.title}</div>
 						<div className="article-description">{props.description}</div>
 						<a className="article-link" href={props.links} target="_blank">
@@ -23,6 +24,7 @@ const Article = (props) => {
 								style={{ fontSize: "10px" }}
 								icon={faChevronRight}
 							/>
+						</a>
 						</a>
 					</div>
 			

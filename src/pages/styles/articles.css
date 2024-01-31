@@ -174,20 +174,19 @@ html.w-mod-touch * {
   h3 {
 	font-size: 24px;
 	line-height: 30px;
-	font-weight: bold;
   }
   
   h6 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 12px;
-	line-height: 18px;
-	font-weight: bold;
+	line-height: 12px;
   }
   
   p {
 	margin-top: 0;
 	margin-bottom: 10px;
+	font-size: 24px;
   }
   
   a {
@@ -276,7 +275,7 @@ html.w-mod-touch * {
 	background-color: #3A738E;
 	box-shadow: inset -4px -4px 4px 1px #3A738E, inset -7px -7px 4px 0 #3A738E;
   }
-  
+
   .layer1 {
 	position: fixed;
 	left: 0px;
@@ -471,12 +470,12 @@ html.w-mod-touch * {
   }
   
   .page-text h3 {
-	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	
 	font-style: italic;
   }
   
   .page-text h6 {
-	font-family: 'PT Sans', sans-serif;
+	
 	font-size: 9px;
 	text-decoration: none;
   }

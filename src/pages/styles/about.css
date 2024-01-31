@@ -44,17 +44,13 @@
 	flex-basis: 300px;
 }
 
-.about-image-container {
+
+
+.about-image-wrapper img {
 	background-image: url("../splash.png");
 	background-image: center center;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 450px;
-}
-
-
-
-.about-image-wrapper img {
 	display: block;
 	width: 100%;
 }
