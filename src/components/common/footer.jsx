@@ -25,7 +25,7 @@ const Footer = () => {
 				</div>
 
 				<div className="footer-credits">
-					<div className="footer-credits-text">
+					<div className="footer-credits-text mt-2 md:mt-0">
 						© 2024 Shivani Sibal All Rights Reserved.
 					</div>
 				</div>

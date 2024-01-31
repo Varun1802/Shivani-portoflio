@@ -10,6 +10,7 @@ import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 
 import "./app.css";
+import Book from "./pages/book";
 
 function App() {
 	
@@ -22,6 +23,7 @@ function App() {
 				<Route path="/articles" element={<Articles />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
+				<Route path="/book" element={<Book/>}/>
 			</Routes>
 		</div>
 	);
