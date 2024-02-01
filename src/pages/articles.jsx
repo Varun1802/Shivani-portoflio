@@ -32,7 +32,7 @@ const Articles = () => {
 						<div className="flex flex-col md:flex-row">
 							<div>
 						<div className="title articles-title">
-							{INFO.articles.title}
+							<p className="text-4xl">{INFO.articles.title}</p>
 						</div>
 
 						<div className="subtitle articles-subtitle">
@@ -102,7 +102,7 @@ const Articles = () => {
 						</div>
 						</div>
 
-						<div className="articles-container">
+						<div className="articles-container mt-24">
 							<div className="articles-wrapper">
 								{myArticles.map((article, index) => (
 									<div
