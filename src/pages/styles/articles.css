@@ -103,7 +103,7 @@ html.w-mod-touch * {
 	transform: none;
 	transition: none;
 	direction: ltr;
-	font-family: inherit;
+	font-family: 'Inter', sans-serif;
 	font-weight: inherit;
 	color: inherit;
 	font-size: inherit;

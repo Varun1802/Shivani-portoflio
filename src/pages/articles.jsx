@@ -41,7 +41,7 @@ const Articles = () => {
 						</div>
 						{/*BOOK ANIMATION DIV*/}
 						<div className="book max-w-[600px] md:max-h-[100px]">
-						<div class="scene max-h-[470px] md:ml-20">
+						<div class="scene max-h-[470px] ">
   							  <div class="book-wrap">
   							    <div class="left-side">
   							      <div class="book-cover-left"></div>
@@ -65,7 +65,7 @@ const Articles = () => {
   							          <div class="page-text w-richtext ">
   							            <h3><strong>June 2016</strong></h3>
   							            <h6>BY <a href="" target="_blank">Shivani Sibal</a></h6>
-										  <p className="left--text visible md:hidden">THE LAST OF the bags packed, Parul and Aahan Sikand were ready to leave 							their family home for the final time.
+										  <p className="left--text visible md:hidden" style={{"font-size":"12px"}}>THE LAST OF the bags packed, Parul and Aahan Sikand were ready to leave 							their family home for the final time.
 										  </p>
   							            <p className="left--text invisible md:visible">THE LAST OF the bags packed, Parul and Aahan Sikand were ready to leave 							their family home for the final time.Acquired in 1946, Sikand House was intended to be the 							cradle for many grandsons and great-grandsons in the coming years. Displaced as he was at 							Partition, Rai Bahadur Manohar Krishna Sikand, Aahan's grandfather, a largely self-made man</p>
   							          </div>
@@ -89,7 +89,7 @@ const Articles = () => {
   							      </div>
   							      <div class="layer-text right">
   							        <div class="page-right-2">
-									  <p className="left--text visible md:hidden text-sm py-4 px-2">Acquired in 1946, Sikand House was intended to be the cradle for many grandsons and great-grandsons in the coming years.
+									  <p className="left--text visible md:hidden py-6" style={{"font-size":"12px"}}>Acquired in 1946, Sikand House was intended to be the cradle for many grandsons and great-grandsons in the coming years.
 										  </p>
   							          <div class="page-text w-richtext invisible md:visible">
   							            <p >  with a premonition about difficult times ahead, didn't suffer the life of a refugee, 							having swapped his house with that of an equally astute Muslim acquaintance before all the 							madness began. It was a gentleman's agreement.</p>
@@ -107,7 +107,7 @@ const Articles = () => {
 						</div>
 						</div>
 
-						<div className="articles-container mt-28">
+						<div className="articles-container md:mt-28">
 							<div className="articles-wrapper">
 								{myArticles.map((article, index) => (
 									<div
