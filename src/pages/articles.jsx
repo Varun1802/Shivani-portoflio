@@ -22,8 +22,8 @@ const Articles = () => {
 			<div className="page-content">
 				<NavBar active="articles" />
 				<div className="content-wrapper">
-					<div className="articles-logo-container invisible md:visible">
-						<div className="articles-logo mt-6">
+				<div className="about-logo-container invisible md:visible">
+						<div className="about-logo mt-4">
 							<Logo width={46} />
 						</div>
 					</div>
@@ -89,9 +89,14 @@ const Articles = () => {
   							      </div>
   							      <div class="layer-text right">
   							        <div class="page-right-2">
+									  <p className="left--text visible md:hidden text-sm">Acquired in 1946, Sikand House was intended to be the 							cradle for many grandsons and great-grandsons in the coming years.
+										  </p>
   							          <div class="page-text w-richtext invisible md:visible">
   							            <p >  with a premonition about difficult times ahead, didn't suffer the life of a refugee, 							having swapped his house with that of an equally astute Muslim acquaintance before all the 							madness began. It was a gentleman's agreement.</p>
 										  <p>The Rai Bahadur arrived in Delhi by air, with gold coins sewn into the lining of his and 							his wife's coats. Their worthy possessions had followed by road, including the heavy teak 							furniture and cast- iron cooking ...</p>
+
+
+							
   							          </div>
   							        </div>
   							      </div>
@@ -102,7 +107,7 @@ const Articles = () => {
 						</div>
 						</div>
 
-						<div className="articles-container mt-24">
+						<div className="articles-container mt-28">
 							<div className="articles-wrapper">
 								{myArticles.map((article, index) => (
 									<div

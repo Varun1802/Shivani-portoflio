@@ -12,7 +12,7 @@ function Book() {
     	<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div className="contact-logo-container">
+					<div className="contact-logo-container invisible md:visible">
 						<div className="contact-logo mt-4">
 							<Logo width={46} />
 						</div>
@@ -20,8 +20,8 @@ function Book() {
 
                     
 					<div className="contact-container">
-                        <div className='flex flex-col md:flex-row justify-center items-center py-16'>
-						    <div className="equation-image w-1/3">
+                        <div className='flex flex-col md:flex-row justify-center items-center md:py-16'>
+						    <div className="equation-image md:w-1/3 mb-4">
 						    	<img src={equation} alt='Equation image' />
 						    </div>
                             <div className='flex flex-col w-2/3 justify-center  md:items-start'>

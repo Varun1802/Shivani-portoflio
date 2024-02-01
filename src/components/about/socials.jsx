@@ -57,7 +57,7 @@ const Socials = () => {
 				</a>
 			</div>
 
-			<div className="email">
+			<div className="email invisible md:visible">
 				<div className="email-wrapper">
 					<a
 						href={`mailto:${INFO.main.email}`}
