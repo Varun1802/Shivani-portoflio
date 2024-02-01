@@ -22,7 +22,7 @@ const Articles = () => {
 			<div className="page-content">
 				<NavBar active="articles" />
 				<div className="content-wrapper">
-					<div className="articles-logo-container">
+					<div className="articles-logo-container invisible md:visible">
 						<div className="articles-logo mt-6">
 							<Logo width={46} />
 						</div>
