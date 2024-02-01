@@ -89,7 +89,7 @@ const Articles = () => {
   							      </div>
   							      <div class="layer-text right">
   							        <div class="page-right-2">
-									  <p className="left--text visible md:hidden text-sm">Acquired in 1946, Sikand House was intended to be the 							cradle for many grandsons and great-grandsons in the coming years.
+									  <p className="left--text visible md:hidden text-sm py-4 px-2">Acquired in 1946, Sikand House was intended to be the cradle for many grandsons and great-grandsons in the coming years.
 										  </p>
   							          <div class="page-text w-richtext invisible md:visible">
   							            <p >  with a premonition about difficult times ahead, didn't suffer the life of a refugee, 							having swapped his house with that of an equally astute Muslim acquaintance before all the 							madness began. It was a gentleman's agreement.</p>

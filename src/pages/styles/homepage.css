@@ -7,10 +7,6 @@
 	padding-top: 130px;
 }
 
-.homepage-container {
-	padding-top: 25px;
-	
-}
 
 .homepage-first-area {
 	
@@ -125,6 +121,7 @@
 	}
 
 	.homepage-image-container {
+
 		padding-bottom: 50px;
 		margin-left: 10px;
 		order: 1;

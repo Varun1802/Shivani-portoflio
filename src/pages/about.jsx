@@ -32,12 +32,12 @@ const About = () => {
 							<Logo width={46} />
 						</div>
 					</div>
-
+				
 					<div className="about-container md:h-screen">
-						<div className="about-main">
+						<div className="about-main flex flex-col md:flex-row justify-center items-center">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.about.title}
+									<p className="text-4xl md:text-5xl">{INFO.about.title}</p>
 								</div>
 
 								<div className="subtitle about-subtitle">
@@ -46,7 +46,7 @@ const About = () => {
 							</div>
 
 							<div className="about-left-side">
-								<div className="about-image-container w-96">
+								<div className="about-image-container w-96 flex">
 									<div className="about-image-wrapper">
 										<img
 											src="shivani-2.png"
