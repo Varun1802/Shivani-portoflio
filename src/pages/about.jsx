@@ -33,7 +33,7 @@ const About = () => {
 						</div>
 					</div>
 
-					<div className="about-container h-screen">
+					<div className="about-container md:h-screen">
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
