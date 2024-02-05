@@ -17,8 +17,8 @@ const resend = new Resend("re_XM3zxNvi_9UKcGPfEkh6VyVsgNvnJve25");
 const sendMail=( async function POST() {
   try {
     const data = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
-      to: ['shivanisibal@gmail.com'],
+      from: 'sanjaykumarjat351728@gmail.com',
+      to: ['sanjaykumarjat351728@gmail.com'],
       subject: 'Hello world',
       text: "TEst1",
     });
@@ -76,7 +76,7 @@ const sendMail=( async function POST() {
 					  </div>
 
 					  <div class="input ">
-					  <button className="p-[3px] relative w-full">
+					  <button className="p-[3px] relative w-full" onSubmit={sendMail}>
                             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#14B8B6] to-[#14B8A6]" />
                             <div className="px-8 py-2  bg-white rounded-full  relative group transition duration-200 text-gray-700 hover:bg-transparent text-xl font-extrabold hover:text-white">
                                          Send Message
