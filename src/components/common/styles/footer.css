@@ -1,7 +1,6 @@
 @import "../../../data/styles.css";
 
 .footer {
-	background-image: url('../beams.webp');
 	display: flex;
 	padding-top: 25px;
 	margin-top: 20px;
