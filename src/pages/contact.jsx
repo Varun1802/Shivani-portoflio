@@ -1,20 +1,36 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
+import { User,Mail,Pencil,Quote } from 'lucide-react';
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
+import { Resend } from 'resend';
 import INFO from "../data/user";
-
 import "./styles/contact.css";
 
 const Contact = () => {
+
+/*Resend Code here*/
+const resend = new Resend("re_XM3zxNvi_9UKcGPfEkh6VyVsgNvnJve25");
+
+const sendMail=( async function POST() {
+  try {
+    const data = await resend.emails.send({
+      from: 'Acme <onboarding@resend.dev>',
+      to: ['shivanisibal@gmail.com'],
+      subject: 'Hello world',
+      text: "TEst1",
+    });
+
+    return Response.json(data);
+  } catch (error) {
+    return Response.json({ error });
+  }
+})
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-
 
 	return (
 		<React.Fragment>
@@ -35,44 +51,42 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Let's Get in Touch:👋
 						</div>
+				<div className="w-1/2 self-center pt-8">
+				<form action="" id="contact-form" className="flex flex-col gap-6 justify-center items-center ">
+					  <div class="input flex gap-2 justify-center items-center">
+					    <User color="#14B8A6"/>
+							<input type="text" name="name" id="name" placeholder="Name" class="h-10 shadow-md drop-shadow-sm indent-4 rounded-lg" size={45} required />
+					  </div>
 
-						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
-							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find me on{" "}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.instagram}
-							</a>
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
-							Thanks again for your interest, and I look forward
-							to hearing from you!
-						</div>
+					  <div class="input flex gap-2 justify-center items-center">
+					    	<Mail color="#14B8A6"/>
+							<input type="email" name="email" id="email" placeholder="Email" class="h-10 shadow-md drop-shadow-sm indent-4 rounded-lg" size={45} required />
+					  </div>
+
+					  <div class="input flex gap-2 justify-center items-center">
+					    	<Pencil color="#14B8A6"/>
+							<input type="text" name="subject" id="subject" placeholder="Subject" 			class="h-10  shadow-md drop-shadow-sm indent-4 rounded-lg" size={45} required /></div>
+					  
+
+					  <div class="input flex gap-2 justify-center">
+					    	<Quote color="#14B8A6"/>
+							<textarea name="message" id="message" cols={48} rows={5} placeholder="Message..." class=" shadow-md drop-shadow-sm indent-4 rounded-lg" required></textarea>	
+					  </div>
+
+					  <div class="input ">
+					  <button className="p-[3px] relative w-full">
+                            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#14B8B6] to-[#14B8A6]" />
+                            <div className="px-8 py-2  bg-white rounded-full  relative group transition duration-200 text-gray-700 hover:bg-transparent text-xl font-extrabold hover:text-white">
+                                         Send Message
+                            </div>
+                        </button>
+					  </div>
+					</form>
+				</div>
 					</div>
 
-					<div className="socials-container">
-						<div className="contact-socials">
-							<Socials />
-						</div>
-					</div>
 
 					<div className="page-footer">
 						<Footer />
