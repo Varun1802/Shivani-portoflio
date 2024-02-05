@@ -6,7 +6,7 @@ import "./styles/footer.css";
 const Footer = () => {
 	return (
 		<React.Fragment>
-			<div className="footer">
+			<div className="footer flex flex-col md:flex-row">
 				<div className="footer-links">
 					<ul className="footer-nav-link-list">
 						<li className="footer-nav-link-item">

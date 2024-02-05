@@ -49,13 +49,13 @@ const sendMail=( async function POST() {
 						</div>
 					</div>
 
-					<div className="contact-container">
-						<div className="title contact-title">
+					<div className="contact-container flex flex-col justify-between items-center h-full">
+						<div className="text-4xl md:text-6xl ">
 							Let's Get in Touch:👋
-						</div>
+							</div>
 				<div className="md:w-1/2 self-center pt-8 mx-4">
 				<form action="" id="contact-form" className="flex flex-col gap-12 justify-center items-center ">
-					  <div class="input flex gap-2 justify-center items-center w-full">
+					  <div class="input flex gap-2 justify-between items-center w-full">
 					    <User color="#14B8A6"/>
 							<input type="text" name="name" id="name" placeholder="Name" class="h-10 shadow-md drop-shadow-sm indent-4 rounded-lg w-full"  required />
 					  </div>
