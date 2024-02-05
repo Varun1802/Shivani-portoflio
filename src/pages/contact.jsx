@@ -53,26 +53,26 @@ const sendMail=( async function POST() {
 						<div className="title contact-title">
 							Let's Get in Touch:👋
 						</div>
-				<div className="w-1/2 self-center pt-8">
-				<form action="" id="contact-form" className="flex flex-col gap-6 justify-center items-center ">
-					  <div class="input flex gap-2 justify-center items-center">
+				<div className="md:w-1/2 self-center pt-8 mx-4">
+				<form action="" id="contact-form" className="flex flex-col gap-12 justify-center items-center ">
+					  <div class="input flex gap-2 justify-center items-center w-full">
 					    <User color="#14B8A6"/>
-							<input type="text" name="name" id="name" placeholder="Name" class="h-10 shadow-md drop-shadow-sm indent-4 rounded-lg" size={45} required />
+							<input type="text" name="name" id="name" placeholder="Name" class="h-10 shadow-md drop-shadow-sm indent-4 rounded-lg w-full"  required />
 					  </div>
 
-					  <div class="input flex gap-2 justify-center items-center">
+					  <div class="input flex gap-2 justify-center items-center w-full">
 					    	<Mail color="#14B8A6"/>
-							<input type="email" name="email" id="email" placeholder="Email" class="h-10 shadow-md drop-shadow-sm indent-4 rounded-lg" size={45} required />
+							<input type="email" name="email" id="email" placeholder="Email" class="h-10 shadow-md drop-shadow-sm indent-4 rounded-lg w-full" required />
 					  </div>
 
-					  <div class="input flex gap-2 justify-center items-center">
+					  <div class="input flex gap-2 justify-center items-center w-full">
 					    	<Pencil color="#14B8A6"/>
-							<input type="text" name="subject" id="subject" placeholder="Subject" 			class="h-10  shadow-md drop-shadow-sm indent-4 rounded-lg" size={45} required /></div>
+							<input type="text" name="subject" id="subject" placeholder="Subject" 			class="h-10  shadow-md drop-shadow-sm indent-4 rounded-lg w-full"  required /></div>
 					  
 
-					  <div class="input flex gap-2 justify-center">
+					  <div class="input flex gap-2 justify-center w-full">
 					    	<Quote color="#14B8A6"/>
-							<textarea name="message" id="message" cols={48} rows={5} placeholder="Message..." class=" shadow-md drop-shadow-sm indent-4 rounded-lg" required></textarea>	
+							<textarea name="message" id="message"  rows={5} placeholder="Message..." class=" shadow-md drop-shadow-sm indent-4 rounded-lg w-full" required></textarea>	
 					  </div>
 
 					  <div class="input ">
